@@ -9,7 +9,13 @@ import React from "react";
 
 const Search = () => {
   return (
-    <div style={{ display: "flex", padding: "32px", justifyContent: 'space-around' }}>
+    <div
+      style={{
+        display: "flex",
+        padding: "32px",
+        justifyContent: "space-around",
+      }}
+    >
       <FormControl>
         <InputLabel id="demo-select-small">Show all items</InputLabel>
         <Select
