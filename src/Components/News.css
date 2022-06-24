@@ -1,0 +1,40 @@
+.news-wrapper{
+    display: flex;
+}
+.news-heading{
+    letter-spacing: -0.9px;
+    font-size: 18px;
+    opacity: 1;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.news-subheading{
+    background-color: #e4d100;
+}
+
+.news-subheading p{
+    margin: 0;
+
+}
+
+.news-date{
+
+}
+
+.news-paragraph{
+    font-style: 300;
+    color: #2098d5;
+}
+
+.news-footer{
+
+}
+
+.news-image{
+    background-image: url('../assets/image1.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}

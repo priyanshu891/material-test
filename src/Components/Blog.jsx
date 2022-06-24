@@ -1,10 +1,12 @@
 import React from "react";
 import News from "./News";
+import Search from "./Search";
 
 const Blog = () => {
   return (
-    <div style={{ height: "300px", backgroundColor: "#f4f4f4" }}>
+    <div className="blog">
         <News/>
+        <Search/>
     </div>
   );
 };
