@@ -1,4 +1,12 @@
-import { Box, Grid, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  Grid,
+  Typography,
+} from "@mui/material";
 import React from "react";
 import "./News.css";
 
@@ -43,7 +51,40 @@ const News = () => {
         </div>
       </Grid>
       <Grid item md={7}>
-        <div className="news-image"></div>
+        <Box className="news-image">
+          <div className="info-card">
+            <Card
+              sx={{
+                minWidth: 275,
+                maxWidth: 290,
+                borderRadius: "4px 0 0 4px",
+                backgroundColor: "#2098d5",
+                color: "#ffffff",
+              }}
+            >
+              <CardContent>
+                <Typography variant="overline" display="block" gutterBottom>
+                  Event
+                </Typography>
+                <Typography variant="body2" mb="16px" color="#000000">
+                  APAC Focused Webinar Series
+                </Typography>
+                <Typography sx={{ mb: 1.5 }}>
+                  Optimising Employee Relocation Journey
+                </Typography>
+                <Typography variant="caption" display="inline-block" lineHeight="1.1">
+                  30 June 2022, Wednesday
+                  <br />
+                  03:00 pm onwards (Singapore Time)
+                  <br />1 hour Microsoft Event
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" variant="contained" disableElevation>Register Now</Button>
+              </CardActions>
+            </Card>
+          </div>
+        </Box>
       </Grid>
     </Grid>
   );

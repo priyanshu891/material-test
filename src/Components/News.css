@@ -33,10 +33,17 @@
 }
 
 .news-image {
+  position: relative;
   background-image: url(../assets/wall-2.jpg);
   border-radius: 0 0 0 20px;
   height: 500px;
   width: 100%;
   background-position: center;
   background-size: cover;
+}
+
+.info-card {
+  position: absolute;
+  right: 0;
+  bottom: 3rem;
 }
